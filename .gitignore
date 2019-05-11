@@ -1,0 +1,9 @@
+.idea
+*.pyc
+*~
+__pyccache__
+.DS_Store
+.env
+*.db
+htmlcov/
+.coverage
