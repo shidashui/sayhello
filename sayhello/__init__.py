@@ -2,8 +2,10 @@
 
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
+from flask_bootstrap import Bootstrap
 
 app = Flask('sayhello')
+bootstrap = Bootstrap(app)
 app.config.from_pyfile('settings.py')#加载配置
 app.jinja_env.trim_blocks = True
 app.jinja_env.lstrip_blocks = True
